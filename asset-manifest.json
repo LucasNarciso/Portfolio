@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio.github.io/static/css/main.a486b029.css",
+    "main.js": "/Portfolio.github.io/static/js/main.0156f788.js",
+    "static/media/Gif.gif": "/Portfolio.github.io/static/media/Gif.5d3fb2392906518f14ea.gif",
+    "static/media/Fundo_WebDex_v2.png": "/Portfolio.github.io/static/media/Fundo_WebDex_v2.bbad10848908cd1f3e92.png",
+    "static/media/Fundo_LinkStack_v2.png": "/Portfolio.github.io/static/media/Fundo_LinkStack_v2.d354ca626000b59b69e1.png",
+    "static/media/Fundo_WhyZap_v2.png": "/Portfolio.github.io/static/media/Fundo_WhyZap_v2.f4718a19069a48f672b8.png",
+    "static/media/WebDex_img1.png": "/Portfolio.github.io/static/media/WebDex_img1.0d10f6ab9a13a17c948c.png",
+    "static/media/WebDex_img3.png": "/Portfolio.github.io/static/media/WebDex_img3.27589464acbae0916941.png",
+    "static/media/Minha_Foto_Redonda.png": "/Portfolio.github.io/static/media/Minha_Foto_Redonda.8314ec064257be34530a.png",
+    "static/media/WhyZap_img2.png": "/Portfolio.github.io/static/media/WhyZap_img2.ef9439191a319d2fb67f.png",
+    "static/media/WebDex_img2.png": "/Portfolio.github.io/static/media/WebDex_img2.055282588630834456c8.png",
+    "static/media/WhyZap_img1.png": "/Portfolio.github.io/static/media/WhyZap_img1.e069ee690f254008b831.png",
+    "index.html": "/Portfolio.github.io/index.html",
+    "main.a486b029.css.map": "/Portfolio.github.io/static/css/main.a486b029.css.map",
+    "main.0156f788.js.map": "/Portfolio.github.io/static/js/main.0156f788.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a486b029.css",
+    "static/js/main.0156f788.js"
+  ]
+}
