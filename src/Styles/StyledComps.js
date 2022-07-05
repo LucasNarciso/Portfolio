@@ -107,7 +107,7 @@ export const Titulo = styled.p`
 `
 
 export const TextoSobre = styled.div`
-    padding: 0em 3em;
+    padding: 0em 10%;
     font-size: 1.2em;
     text-align: left;
     color: black;
@@ -212,9 +212,11 @@ export const TimeLine = styled.div`
     border-style: solid;
     border-image: linear-gradient( to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     border-image-slice: 10;
-    width: 26em;
+    width: 70%;
+    max-width: 26em;
     padding: 0.5em;
     margin: 2em;
+    word-wrap: break-word;
 
     h3{
         margin: 0em;
