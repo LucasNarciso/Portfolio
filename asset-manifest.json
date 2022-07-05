@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio.github.io/static/css/main.a486b029.css",
-    "main.js": "/Portfolio.github.io/static/js/main.f3822b7f.js",
+    "main.js": "/Portfolio.github.io/static/js/main.93ded93f.js",
     "static/media/Gif.gif": "/Portfolio.github.io/static/media/Gif.5d3fb2392906518f14ea.gif",
     "static/media/Fundo_WebDex_v2.png": "/Portfolio.github.io/static/media/Fundo_WebDex_v2.bbad10848908cd1f3e92.png",
     "static/media/Fundo_LinkStack_v2.png": "/Portfolio.github.io/static/media/Fundo_LinkStack_v2.d354ca626000b59b69e1.png",
@@ -14,10 +14,10 @@
     "static/media/WhyZap_img1.png": "/Portfolio.github.io/static/media/WhyZap_img1.e069ee690f254008b831.png",
     "index.html": "/Portfolio.github.io/index.html",
     "main.a486b029.css.map": "/Portfolio.github.io/static/css/main.a486b029.css.map",
-    "main.f3822b7f.js.map": "/Portfolio.github.io/static/js/main.f3822b7f.js.map"
+    "main.93ded93f.js.map": "/Portfolio.github.io/static/js/main.93ded93f.js.map"
   },
   "entrypoints": [
     "static/css/main.a486b029.css",
-    "static/js/main.f3822b7f.js"
+    "static/js/main.93ded93f.js"
   ]
 }
