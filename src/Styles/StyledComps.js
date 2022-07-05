@@ -20,7 +20,7 @@ export const NavBar = styled.div`
     color: white;
     display: flex;
     font-weight: bold;
-    font-size: clamp(0.6em, 0.3em + 1vw, 1em);
+    font-size: clamp(1em, 0.3em + 1vw, 1em);
     justify-content: center;
     position: fixed;
     top: 0em;
@@ -126,7 +126,7 @@ export const DivFormacao = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;;
+    text-align: left;
     font-family: 'Charis SIL', serif;
 
     p{
