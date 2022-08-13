@@ -1,11 +1,23 @@
 import styled, { createGlobalStyle } from 'styled-components';
 import Gif from "../Imagens/Gif.gif";
 
-import ImgTeste from "../Imagens/Imagem_2.png"
-
-
 export const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Kdam+Thmor+Pro&display=swap');
+    
+    /*Personaliza a Calha da Barra de rolagem */
+        ::-webkit-scrollbar {
+            position: absolute;
+        width: 0.30em;
+        height: 0.5em;
+        background-color: #303536;
+        border-radius: 0em 0em 0.3em 0em;
+    }
+
+    /*Personaliza a Barra de Rolagem*/
+    ::-webkit-scrollbar-thumb {
+        position: absolute;
+        background: white;
+        border-radius: 0em 0em 0.3em 0.3em;
+    }
 `
 
 export const DivPai = styled.div`
@@ -20,7 +32,7 @@ export const NavBar = styled.div`
     color: white;
     display: flex;
     font-weight: bold;
-    font-size: clamp(0.6em, 0.3em + 1vw, 1em);
+    font-size: clamp(1em, 0.3em + 1vw, 1em);
     justify-content: center;
     position: fixed;
     top: 0em;
@@ -84,7 +96,7 @@ export const Nome = styled.p`
     align-items: center;
     justify-content: center;
     color: white;
-    width: 2em;
+    width: 12em;
     font-size: clamp(1.1em, 1em + 1vw, 2em);
     font-family: 'Kdam Thmor Pro', sans-serif;
 `
@@ -126,7 +138,7 @@ export const DivFormacao = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;;
+    text-align: left;
     font-family: 'Charis SIL', serif;
 
     p{
@@ -158,7 +170,6 @@ export const DivContatosIconesAbsolute = styled.div`
     display: flex;
     width: 100%;
     margin-top: 4.5em;
-    height: 10em;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -332,77 +343,15 @@ export const DivEsp = styled.div`
 
 export const DivDetProjeto = styled.div`
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     align-items: center;
     justify-content: space-around;
     width: 98%;
-    margin: 0.5em;
     font-family: 'Charis SIL', serif;
 
     h4{
         font-family: 'Kdam Thmor Pro', sans-serif;
-    }
-
-    -webkit-animation: slide-bottom 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-bottom 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-
-    @-webkit-keyframes slide-bottom {
-        0% {
-            -webkit-transform: translateY(-350px);
-                    transform: translateY(-350px);
-        }
-        100% {
-            -webkit-transform: translateY(0px);
-                    transform: translateY(0px);
-        }
-    }
-    @keyframes slide-bottom {
-        0% {
-            -webkit-transform: translateY(-350px);
-                    transform: translateY(-350px);
-                    height: 0em;
-        }
-        100% {
-            -webkit-transform: translateY(0px);
-                    transform: translateY(0px);
-                    height: 20em;
-        }
-    }
-`
-
-export const DivDetProjetoNone = styled.div`
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: space-around;
-    width: 98%;
-    margin: 0.5em;
-    font-family: 'Charis SIL', serif;
-    
-    -webkit-animation: slide-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-
-    @-webkit-keyframes slide-top {
-        0% {
-            -webkit-transform: translateY(0);
-                    transform: translateY(0);
-        }
-        100% {
-            -webkit-transform: translateY(-350px);
-                    transform: translateY(-350px);
-        }
-    }
-    @keyframes slide-top {
-        0% {
-            -webkit-transform: translateY(0);
-                    transform: translateY(0);
-                    height: 20em;
-        }
-        100% {
-            -webkit-transform: translateY(-350px);
-                    transform: translateY(-350px);
-                    height: 0em;
-        }
     }
 `
 
@@ -413,8 +362,8 @@ export const DivCarrousel = styled.div`
 `
 
 export const DivSepDetalhes = styled.div`
-    width: 25em;
-    height: 18em;
+    width: 22em;
+    height: auto;
     border: 0.2em solid white;
     color: white;
     border-radius: 0.3em;
@@ -425,18 +374,19 @@ export const ConteudoDetalhesProjeto = styled.div`
 `
 
 export const BotaoLinks = styled.button`
-    background-color: #2C423F;
-    color: white;
+    background-color: white;
+    color: #303536;
     padding: 0.3em;
     width: 100%;
     margin-bottom: 0.5em;
     border: none;
     border-radius: 0.2em;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 
     :hover{
         cursor: pointer;
-        background-color: #303536;
+        background-color: #677073;
+        color: white;
     }
 `
 
@@ -450,8 +400,8 @@ export const DivConteudoGaleria = styled.div`
 export const DivImgGaleria = styled.div`
     margin: 0em 1em 2em 1em;
     background-color: #2C423F;
-    width: 4em;
-    height: 4em;
+    width: 5em;
+    height: 5em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -502,4 +452,47 @@ export const BotaoX = styled.button`
         cursor: pointer;
         transform: scale(1.1)
     }
+`
+
+export const DivCardsProjetos = styled.div`
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+`
+
+export const CardProjeto = styled.div`
+    width: 20em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5em;
+`
+
+export const CardTitulo = styled.p`
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0.7em;
+`
+
+export const CardImagens = styled.img`
+    width: 20em;
+    z-index: 1;
+`
+
+export const DivDescProjetoFechada = styled.div`
+    width: 100%;
+    height: 0em;
+    transition: 0.3s ease-in-out;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-items: center;
+    background-color: #303536;
+    border-radius: 0em 0em 0.3em 0.3em;
+    border-bottom: 0.16em solid #1F2223;
+    transform: translateY(-0.3em);
 `
